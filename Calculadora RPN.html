@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Calculadora RPN</title>
+    <link rel="stylesheet" href="./Calculadora RPN_files/CalculadoraRPN.css">
+</head>
+
+<body>
+    
+    <section>
+        
+<form action="http://localhost/PRACTICA-4/Ejercicio-3/CalculadoraRPNIndex.php#" method="post" name="calculadora" class="calculadora">
+    <div class="pantallaPila" id="pila">
+        <p>Pila de operaciones</p>
+        
+    </div>
+    <input type="text" class="pantalla" id="resultado" value="" disabled="">
+    <div class="botones">
+
+        <input type="submit" class="boton" value="x^2" name="x^2">
+        <input type="submit" class="boton" value="x^y" name="x^y">
+        <input type="submit" class="boton" value="log" name="log">
+        <input type="submit" class="boton" value="exp" name="exp">
+
+        <input type="submit" class="boton" value="asin" name="asin">
+        <input type="submit" class="boton" value="acos" name="acos">
+        <input type="submit" class="boton" value="atan" name="atan">
+        <input type="submit" class="boton" value="Pi" name="pi">
+
+        <input type="submit" class="boton" value="sin" name="sin">
+        <input type="submit" class="boton" value="cos" name="cos">
+        <input type="submit" class="boton" value="tan" name="tan">
+
+        <input type="submit" class="boton" value="10^x" name="10^x">
+        <input type="submit" class="boton" value="sqrt" name="sqrt">
+
+    </div>
+
+    <div class="basico">
+        <input type="submit" class="boton" name="botonMRC" value="mrc">
+        <input type="submit" class="boton" name="botonMMin" value="m-">
+        <input type="submit" class="boton" name="botonMSum" value="m+">
+        <input type="submit" class="operacion" name="botonDiv" value="/">
+
+        <input type="submit" class="boton" name="boton7" value="7">
+        <input type="submit" class="boton" name="boton8" value="8">
+        <input type="submit" class="boton" name="boton9" value="9">
+        <input type="submit" class="operacion" name="botonMul" value="*">
+
+        <input type="submit" class="boton" name="boton4" value="4">
+        <input type="submit" class="boton" name="boton5" value="5">
+        <input type="submit" class="boton" name="boton6" value="6">
+        <input type="submit" class="operacion" name="botonMin" value="-">
+
+        <input type="submit" class="boton" name="boton1" value="1">
+        <input type="submit" class="boton" name="boton2" value="2">
+        <input type="submit" class="boton" name="boton3" value="3">
+        <input type="submit" class="operacion" name="botonSum" value="+">
+
+        <input type="submit" class="boton" name="boton0" value="0">
+        <input type="submit" class="boton" name="botonDot" value=".">
+        <input type="submit" class="boton" name="botonC" value="C">
+        <input type="submit" class="calc" name="botonEnter" value="ENTER">
+    </div>
+
+
+</form>
+    </section>
+
+    <div class="help">
+        <h2>¿Qué es la Notación Polaca Inversa?</h2>
+        <p>
+            La notación polaca inversa, notación de postfijo, o notación posfija (en inglés, Reverse Polish Notation, o
+            RPN),
+            es un método algebraico alternativo de introducción de datos. Su nombre viene por analogía con la
+            relacionada notación polaca,
+            una notación de prefijo introducida en 1920 por el matemático polaco Jan Łukasiewicz(alias Robert) en donde
+            cada operador está
+            antes de sus operandos.</p>
+        <p>
+            En la notación polaca inversa es al revés: primero están los operandos y después viene el operador que
+            va a realizar los cálculos sobre ellos. Tanto la notación polaca como la notación polaca inversa no
+            necesitan usar paréntesis
+            para indicar el orden de las operaciones, mientras la aridad del operador sea fija.
+        </p>
+
+        <h3>Instrucciones de uso</h3>
+        <p>Primero deberas introducir los operandos deseados, para ello pulsa en los numeros que quieras añadir a la
+            pila y pulsa en "ENTER" para añadirlo a la pila.</p>
+        <img src="./Calculadora RPN_files/Captura1.PNG" alt="Ayuda captura1">
+        <p>Una vez introducidos los numeros pulsa la operacion deseada, en el caso de la suma se sumarian los dos
+            ultimos elementos introducidos y se colocaria el resultado a continuacion.</p>
+        <img src="./Calculadora RPN_files/Captura2.PNG" alt="Ayuda captura1">
+    </div>
+
+    <footer>
+        <a href="http://validator.w3.org/check/referer" hreflang="en-us">
+            <img src="./Calculadora RPN_files/valid-html5-button.png" alt="¡HTML5 válido!">
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="./Calculadora RPN_files/vcss" alt="¡CSS Válido!">
+        </a>
+    </footer>
+
+
+</body></html>

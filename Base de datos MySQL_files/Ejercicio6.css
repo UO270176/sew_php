@@ -1,0 +1,113 @@
+/*001*/
+
+body {
+    font: 400 100% Tahoma, sans-serif;
+    /*Familia sans-serif*/
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*001*/
+
+h1 {
+    font: 160% "bold Courier", monospace;
+    background-color: #037baa;
+    padding: 2%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 2% 0% 0%;
+}
+
+h2 {
+    font: 140% "bold Courier", monospace;
+    background-color: #4393b3;
+    padding: 1%;
+    color: #fff;
+    text-align: left;
+    margin: 1% 50% 1% 0%;
+}
+
+/*001*/
+
+p {
+    margin: 1%;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 1% 0%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+}
+
+nav li {
+    float: left;
+}
+
+nav li input {
+    font: 120% Impact, fantasy;
+    font-style: normal;
+    display: block;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: #111;
+}
+
+.crearInterfaz {
+    width: 25%;
+    height: auto;
+    padding: 1%;
+    margin: 1% 0% 1%;
+    color: black;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border: outset #037baa;
+}
+
+textarea {
+    resize: none;
+    margin-top: 1%;
+    padding: 1%;
+    border: solid 1px black;
+    color: black;
+    background-color: white;
+    font: 400 100% Tahoma, sans-serif;
+}
+
+input {
+    margin-top: 1%;
+    font: 400 120% Tahoma, sans-serif;
+}
+
+
+label {
+    margin-top: 1%;
+}
+
+table {
+    text-align: left;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+}
+
+td {
+    padding: 15px;
+}
+img{
+    margin-top: 1%;
+}
