@@ -16,6 +16,16 @@ body {
     grid-template-rows: 0.5fr;
 }
 
+h1 {
+    font: 160% "bold Courier", monospace;
+    background-color: #037baa;
+    padding: 2%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 2% 0% 0%;
+}
+
 /*010*/
 
 .pantalla {
